@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Web-Site</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div class="container">
+            <div class="navbar">
+            <div class="logo-container">
+                <img src="mletter.png" class="logo">
+                <div class="logo-text">eena</div>
+            
+            </div>
+            <div class ="nav-items">
+            <div><a href="#projects">Projects</a></div>
+            <div><a href="#skills">Skills</a></div>
+            <div><a href="#contactme">Contact Me</a></div>
+            </div>
+        </div>
+        </div>
+        <div class="hero-section">
+            <div class="faded-text">Meena</div>
+            <div class="hero-section-left">
+                <div class="hero-section-heading">Hi! Abhishek Meena</div>
+                <div class="hero-section-heading  hero-section-sub-heading">
+                    I am a <span class="role"></span>
+                </div>
+                <div class="hero-section-description">
+                    I'm a software developer and here is my Portfolio website.here you'll 
+                    learn about my journey as a software developer
+                </div>
+                <div class="btn-pink" id="btn"> Hire me</div>
+            </div>
+            <div class="hero-section-right">
+                
+               
+                <div class="absolute icons icon-plus">
+                    <img src="plus.png" alt="">
+                </div>
+                <div class="user-image">
+                    <img src="meena=2.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script>
+        var typedata =new Typed(".role",{
+            strings:[
+            "Full Stack Developer",
+            "Web Developer",
+            "UI-UX Desingner",
+            "CODER",
+            "Backend Developer"
+            ],
+            loop: true,typeSpeed:100,backSpeed:80,backDelay: 1000, 
+        });
+    </script>
+</body>
+</html>
